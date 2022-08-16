@@ -7,7 +7,7 @@ import joblib
 # loaded_model = pickle.load(open('C:/Users/user/Desktop/Machine Learning Projects/Diabetes Prediction/Deploying Diabetes Prediction/trained_model.sav','rb'))
 # loaded_model = pickle.load(open('C:/Users/DELL/Desktop/ML Deployment/Deploying_Diabetes_Prediction/trained_model.sav', 'rb'))
 
-loaded_model = joblib.load(open('C:/Users/DELL/Desktop/ML Deployment/Deploying_Diabetes_Prediction/trained_model.sav', 'rb'))
+loaded_model = joblib.load(open('trained_model.sav', 'rb'))
 # creating a funtion for prediction
 
 def diabetes_prediction(input_data):
